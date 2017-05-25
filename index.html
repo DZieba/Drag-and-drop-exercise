@@ -1,0 +1,53 @@
+<!DOCtype html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset=”utf-8”>
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width = device-width">
+    <!-- <link href="dist/hamburgers.css" rel="stylesheet">-->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <title>Strona z formularzem</title>
+</head>
+
+<body>
+<div class="container">
+    <div class="col" id="col" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <div class="buy">
+            <button class="button_buy" type="button" onclick="addImage();">Buy a delicious <br> donut</button>
+        </div>
+        <div id="dragElement" draggable="true" ondragstart="drag(event)">
+            <img src="donut0.jpg" id="image">
+        </div>
+
+    </div>
+    <div class="col2" id="col2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+</div>
+<div class="container">
+    <div class="box">
+        <div class="buton">
+            <button type="button" id="tu">klikamyy</button>
+        </div>
+        <div class="text">
+            We tried to make very high-quality product and so our
+            code is very neat and clean. Whatever anyone could improve
+            and modify the template to your liking.
+            Sed ut perspiciatis unde omnis iste natus error sit
+            voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+            architecto beatae vitae dicta sunt explicabo.
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
